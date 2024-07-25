@@ -7,24 +7,25 @@ contents:
 
   - title: University of South Carolina (USA), PhD in Civil Engineering - Water Resources Management
     description:
-      - Investigating the use of computer simulations to model human behavior during cascading disasters in the city of Groningen
-      - Integrating data collected from citizens to calibrate and validate simulations, providing real-time insights and preparedness strategies.
+      - Developing a smart flood early warning system using computer vision and deep learning techniques to predict flood events in real-time.
+      - Exploring AI applications in hydrologic modeling, including post-processing of long-term forecasts and remote sensing data for improved water resource management
     date: Sep. 2024 - Now
 
   - title: University of Groningen (Netherlands), Graduate Researcher in Disaster Risk Reduction
     description:
-      - Design of a method to build a probabilistic generative model
-      - Development of model calibration algorithm for cross-domain few-shot learning
-      - Thesis: "A Review on Applications of Deep Learning and Remote Sensing in Disaster Management Cycle"
+    - Investigating the use of computer simulations to model human behavior during cascading disasters in the city of Groningen
+    - Integrating data collected from citizens to calibrate and validate simulations, providing real-time insights and preparedness strategies.      
+    
     date: May. 2024 - Jul. 2024
 
 
 
   - title: Polytechnic University of Milan (Italy), MSc in Civil Engineering for Risk Mitigation
+    Thesis: "A Review on Applications of Deep Learning and Remote Sensing in Disaster Management Cycle"
     description:
       - Conducted detailed flood risk assessments using HEC-RAS software, analyzing open channel flow dynamics and hydraulic structures in urban watersheds.
       - Performed probabilistic hazard assessment using historical hydrological data to evaluate flood frequency and magnitude for infrastructure design and planning.
-
+      
     date: Sep. 2021 - Apr. 2024
   - title: Imam Khomeini International University (Iran), BSc in Civil Engineering
     description:
