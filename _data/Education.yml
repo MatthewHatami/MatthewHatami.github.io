@@ -7,26 +7,27 @@ contents:
 
   - title: University of South Carolina (USA), PhD in Civil Engineering - Water Resources Management
     description:
-      - Design of a method to build a probabilistic generative model
-      - Development of model calibration algorithm for cross-domain few-shot learning
+      - Investigating the use of computer simulations to model human behavior during cascading disasters in the city of Groningen
+      - Integrating data collected from citizens to calibrate and validate simulations, providing real-time insights and preparedness strategies.
     date: Sep. 2024 - Now
 
   - title: University of Groningen (Netherlands), Graduate Researcher in Disaster Risk Reduction
     description:
       - Design of a method to build a probabilistic generative model
       - Development of model calibration algorithm for cross-domain few-shot learning
+      - Thesis: "A Review on Applications of Deep Learning and Remote Sensing in Disaster Management Cycle"
     date: May. 2024 - Jul. 2024
 
 
 
   - title: Polytechnic University of Milan (Italy), MSc in Civil Engineering for Risk Mitigation
     description:
-      - Development of deep learning algorithms for automatically tracking the facial expressions
-      - Optimizing parameter efficient fine tuning for fairness in medical image analysis
+      - Conducted detailed flood risk assessments using HEC-RAS software, analyzing open channel flow dynamics and hydraulic structures in urban watersheds.
+      - Performed probabilistic hazard assessment using historical hydrological data to evaluate flood frequency and magnitude for infrastructure design and planning.
 
     date: Sep. 2021 - Apr. 2024
   - title: Imam Khomeini International University (Iran), BSc in Civil Engineering
     description:
-      - Development of a method to predict the earthquake-induced damage in buildings
-      - Design of a method to optimize the seismic retrofitting of buildings
+      - Completed coursework in hydrology and hydraulics, focusing on basic principles of open channel flow and flood analysis.
+      - Participated in a group project to assess local stream conditions and propose simple flood mitigation measures using fundamental hydraulic concepts.
     date: Sep. 2016 - Feb. 2021

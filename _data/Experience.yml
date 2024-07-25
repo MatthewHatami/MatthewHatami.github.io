@@ -2,21 +2,19 @@ subject: Experiences
 listing-order: 2
 icon: "/assets/img/briefcase.svg"
 contents:
-  - title: Nanosoft
-    role: Project Manager
+  - title: Geospatial Data Scientist 
+    role: Intern
     description:
-      - Led development of a new chatbot software utilizing large language model
-      - Co-designer of '*Kopilot*' and '*Gemmini*'
-    date: Jan. 2024 - Ongoing
-  - title: Amazone
-    role: Senior Software Engineer
+      - Developed a QGIS Plugin to find unstable parts of the land in mining activities
+      - Optimized the processing chain to minimize the effort and request time to process routine tasks
+      - Apply AI and ML to convert semi-automatic tasks to fully automatic
+
+    date: Oct. 2023 - Dec. 2023
+
+    
+  - title: IELTS Instructor
+    role: ESL Teacher | Public Speaker
     description: 
-      - Built a Java microservice, database schema to manage customer accounts
-      - Enhanced internal pipelines to query real-time data from client devices
-    date: Apr. 2016 - Dec. 2018
-  - title: Pacebook
-    role: Software Engineer Intern
-    description: 
-      - Designed the dynamic website using React for data visualization
-      - Integrated '*Yolo*' to boost the accuracy of the object detection
-    date: Jul. 2013 - Sep. 2013
+      - Developed comprehensive IELTS preparation curriculum tailored to diverse student needs
+      - Conducted intensive speaking and writing workshops to enhance test-takers' performance
+    date: Dec. 2019 - Jan. 2021

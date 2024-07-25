@@ -40,20 +40,20 @@ end
 
 For `_config.yml` file, 
 ```yml
-title: Title of your CV site
+title: Matthew's Live Curriculum Vitae
 profile_img: assets/img/profile.webp
 icon_img: assets/img/icon.webp
 
-name: "Your Name Here"
-job: "〈Your Job Here〉"
+name: "Matthew Hatami"
+job: "〈PhD Student | Aspiring Geospatial Data Science〉"
 
-phone_number: 012-345-6789
-address: City, Country
-email: email@example.com
-linkedin_username: linkedin
-github_username: github
-instagram_username: instagram
-twitter_username: twitter
+phone_number: 039 331-253 8654
+address: Columbia (SC), USA
+email: mhatami@sc.edu
+linkedin_username: matthewHatami
+github_username: matthewHatami
+instagram_username: matthew.scholar
+twitter_username: matthewhatami1
 facebook_username: facebook
 
 theme: jekyll-professional-resume
