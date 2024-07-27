@@ -1,21 +1,65 @@
 subject: Projects
-listing-order: 3
-icon: "/assets/img/clipboard-list.svg"
+listing-order: 2
+icon: "/assets/img/project.svg"
 contents:
-  - title: "ChatPPT ([https://chat.opena1.com/](https://chat.openai.com/))"
-    description: 
-      - Chatbot developed based on a large language model
-      - Designed Generative algorithm to generate novel human-like content
-      - "Technology Used: Rust, Typescript, Python, Ruby"
-    image: "![](https://i.ibb.co/hX2wYLB/231321.webp)"
-  - title: "AW5-cli ([https://github.com/aw5/aw5-cli](https://github.com/aws/aws-cli))"
-    description: 
-      - Universal Command Line Interface for Amazone Web Services
-      - Developed a scheme to facilitate users’ authentication without having to remember their credentials
-      - "Technology Used: Typescript, Python, Go"
-    image: "![](https://i.ibb.co/Ttb5Qn9/21321312.webp)"
-  - title: "PiTorch ([https://pitorch.org/](https://pytorch.org/))" 
-    description: 
-      - Machine learning library for applications such as computer vision and natural language processing
-      - "Technology Used: Python, Cuda, Objective-C++"
-    image: "![](https://i.ibb.co/R9150c4/12421323.webp)"
+  - title: Geospatial Data Science Intern at GeoApp
+    location: Firenze, IT
+    date: October 2023 - December 2023
+    description: |
+      Helped GeoApp team with their QGIS plugin development, and implement Machine Learning Pipelines working with inSAR data.
+      - Developed a QGIS Plugin to find unstable parts of the land in mining activities.
+      - Optimized the processing chain to minimize the effort and request time to process routine tasks.
+      - Applied AI and ML to convert semi-automatic tasks to fully automatic.
+    tools: QGIS, Visual Code Studio
+  - title: Developed a Traffic Management Plan (TMP)
+    location: Lombardy, IT
+    date: March 2022 - July 2023
+    description: |
+      Studied the effects of the closure of the A21 highway segment between Broni and Castel San Giovanni.
+      - Network Assignments: All-or-nothing assignment, Select link assignment, Exclude group assignment.
+      - Alternative Roads: Suggested one Micro alternative, and 3 Macro alternative roads.
+      - Heavy Vehicle Management: Suggested two stocking areas for heavy vehicles.
+    tools: ArcGIS Pro, Bentley CUBE
+  - title: Developed a Transportation Emergency Management Plan (TEMP)
+    location: Lombardy, IT
+    date: March 2023 - July 2023
+    description: |
+      Studied the effects the failure of Bonte Cola’s dam in Toscolano Moderno.
+      - Provided 7 different evacuation scenarios.
+    tools: ArcGIS Pro, Bentley CUBE
+  - title: Developed a WebGIS Service to Support Locational Choice of Shelters
+    location: Lazio, IT
+    date: January 2023 - June 2023
+    description: |
+      Studying geomorphological characteristics of the land and potential hazards to find suitable locations for shelters during emergencies such as earthquakes, floods, or other types of hazards.
+      - Geomorphological Investigation: Studied the suitability of land based on slope, soil type, and land cover (biodiversity).
+      - Hazard Susceptibility: Studied susceptibility of the land to possible floods, seismic hazards, landslides, and manmade hazards.
+    tools: ArcGIS Pro, QGIS, Google Earth Engine
+  - title: Applied Geo-engineering Techniques to Study Rockfalls in Bellano
+    location: Lecco, IT
+    date: September 2023 - January 2023
+    description: |
+      Used devices and software to study the geophysical characteristics of the rocks.
+      - Geological Studies: Used devices and software to study the geophysical characteristics of the rocks.
+      - Photogrammetric Assessments: Created 3D models of the surface with overlapping images, and creating point clouds.
+    tools: Field move Clino, Stereonet, Cloud compare, Agisoft Metashape
+    devices: Geological Compass, Barton Comb, Schmidt Hammer, Ground-penetrating radar (GPR), IDS (3GHz) GeoRadar
+  - title: Applied Geo-engineering Techniques to Study a Shallow Landslide in Lecco
+    location: Lecco, IT
+    date: September 2023 - January 2023
+    description: |
+      Studied a landslide during intense rainfall and made geological investigations, photogrammetric and geophysical assessments.
+      - Geological Studies: Used sensors to analyze the geophysical behavior of the slope during the rainfall.
+      - Photogrammetric Assessments: Surface point tracking, Created 3D images of landslide, Volume change measurement.
+      - Geophysical Assessments: Used Electrical Resistivity Tomography (ERT) method to extract the apparent resistivity.
+    tools: Excel Res2Dinv, Cloud compare, Agisoft Metashape
+    devices: Arduino Sensors, Tensiometer, Time Domain Reflectometry, CMOS cameras, Terrestrial Laser Scanner (TLS), Total Station
+  - title: Did Risk Assessment of Garfagnana valley in Tuscany Region
+    location: Tuscany, IT
+    date: September 2021 - February 2022
+    description: |
+      Analyzed Direct Damages, Secondary Damages, Induced Damages, and Long-term Damages.
+      - Hazard Assessment: Single Hazard Analysis, Multi-layer Single Hazard Analysis, Multi Hazard Analysis.
+      - Exposure Analysis: Identified the Hazardous Areas, Identified Assets and People Inside the Hazardous Areas.
+      - Vulnerability Assessment: Natural Systems and Land cover, Biodiversity, Built Environment, Social Systems, Economic Systems.
+    tools: ArcGIS Pro, QGIS, Excel
