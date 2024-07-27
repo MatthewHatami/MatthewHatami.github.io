@@ -2,15 +2,6 @@ subject: Projects
 listing-order: 2
 icon: "/assets/img/project.svg"
 contents:
-  - title: Geospatial Data Science Intern at GeoApp
-    location: Firenze, IT
-    date: October 2023 - December 2023
-    description: |
-      Helped GeoApp team with their QGIS plugin development, and implement Machine Learning Pipelines working with inSAR data.
-      - Developed a QGIS Plugin to find unstable parts of the land in mining activities.
-      - Optimized the processing chain to minimize the effort and request time to process routine tasks.
-      - Applied AI and ML to convert semi-automatic tasks to fully automatic.
-    tools: QGIS, Visual Code Studio
   - title: Developed a Traffic Management Plan (TMP)
     location: Lombardy, IT
     date: March 2022 - July 2023
