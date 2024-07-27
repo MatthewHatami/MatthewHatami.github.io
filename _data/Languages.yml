@@ -2,9 +2,9 @@ subject: Languages
 listing-order: 7
 icon: "/assets/img/globe.svg"
 contents:
-  - title: "Farsi ('*Native*'): <span style='color: goldenrod; margin: auto 8px; font-family: cursive;'>●●●●●</span>"
-  - title: "Azeri Turkish ('*Native*'): <span style='color: goldenrod; margin: auto 8px; font-family: cursive;'>●●●●●</span>"   - title: "Azeri Turkish ('*Native*'): <span style='color: goldenrod; margin: auto 8px; font-family: cursive;'>●●●●●</span>"
-  - title: "English ('*Proficient*'): <span style='color: goldenrod; margin: auto 8px; font-family: cursive;'>●●●●●</span>"
-  - title: "Spanish: ('*Intermediate*'): <span style='color: indianred; margin: auto 8px; font-family: cursive;'>●●●○○</span>"
-  - title: "Italian: ('*Basic*'): <span style='color: indianred; margin: auto 8px; font-family: cursive;'>●●●○○</span>"
 
+  - title: "Farsi: Native - bilingual"
+  - title: "Azerbaijani: Native - bilingual"
+  - title: "English: Proficient"
+  - title: "Turkish: Limited working proficiency"
+  - title: "Spanish: Limited working proficiency"
