@@ -2,12 +2,32 @@ subject: Awards
 listing-order: 6
 icon: "/assets/img/trophy.svg"
 contents:
+  - title: ERASMUS Programme
+    description: |
+      Issued by European Commission · Feb 2022
+      Associated with Politecnico di Milano
+      I was a selected winner for this very competitive grant. The scholarship would cover my tuition fees and would give me a stipend of 500 €/month for studying in Poland as an Erasmus Student, but I decided to turn down this offer because of the proximity of Poland to Ukraine and possibility of Poland being invaded by Russian army. (At the time, Russia had just started taking military actions against Ukraine)
+    date: Feb 2022
+  - title: Italian Government Scholarships for Foreign Students
+    description: |
+      Issued by Italian Government · Sep 2021
+      Associated with Politecnico di Milano
+  - title: National Concrete Competition
+    description: |
+      Ranked 4th among 52 teams in the National Concrete Competition
+      Associated with Imam Khomeini International University · May 2019
+      We (Sepehr Nazari, Kimia Manifaar & I) took part as a team from Imam Khomeini in the 9th National Concrete Competition (NCC) which was held at AmirKabir University of Tehran (AUT) and placed 4th among 52 teams from different universities from the whole country.
+    date: May 2019
+  - title: Nationwide Undergraduate Entrance Exam
+    description: |
+      Ranked in the upper 2% among around 500,000 participants in the nationwide undergraduate entrance exam of universities in 2016
+    date: May 2016
   - title: IEEEE Fellow
     description: Association for Natural Language Processing
-    date: Feb. 2024
+    date: Feb 2024
   - title: Gogle CodeJam
     description: 3rd place in Gogle CodeJam
     date: Jul. 2013
   - title: Millennium Hackaton
-    description: won the best Inspirational Youth Awards
+    description: Won the best Inspirational Youth Awards
     date: Oct. 2010
