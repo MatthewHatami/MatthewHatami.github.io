@@ -56,11 +56,14 @@ document.addEventListener("DOMContentLoaded", function() {
         { id: 6, group: 3, content: "Presented at GIS Day", start: "2024-11-20" }
     ]);
 
+
+
+
     // Timeline configuration options
     var options = {
         groupOrder: (a, b) => a.value - b.value,
         groupHeightMode: "fixed", // Force fixed group height
-        groupMinHeight: 60,       // Set fixed height (in pixels)
+        groupMinHeight: 80,       // Set fixed height (in pixels)
         stack: true,
         showCurrentTime: true,
         zoomable: false,
@@ -76,15 +79,17 @@ document.addEventListener("DOMContentLoaded", function() {
         end: "2026-12-31"
     };
 
-    try {
+        try {
         // Initialize timeline
-        var timeline = new vis.Timeline(container, items, options);
-        timeline.setGroups(groups);
-        console.log("✅ Timeline initialized successfully!");
-    } catch (error) {
-        console.error("❌ Timeline creation error:", error);
-        container.innerHTML = "Error loading timeline.";
-    }
+//        var timeline = new vis.Timeline(container, items, options);
+//        timeline.setGroups(groups);
+//        console.log("✅ Timeline initialized successfully!");
+//    } catch (error) {
+//        console.error("❌ Timeline creation error:", error);
+//        container.innerHTML = "Error loading timeline.";
+//    }
+
+
 });
 </script>
 {% endraw %}
