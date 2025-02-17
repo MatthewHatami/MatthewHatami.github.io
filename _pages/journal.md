@@ -2,12 +2,15 @@
 layout: archive
 title: "Learning Journal"
 permalink: /journal/
-custom_js: true
 author_profile: true
 redirect_from:
-- /journal
+  - /journal
+# IMPORTANT: Remove or set custom_js to false to avoid double initialization
+custom_js: false
 ---
+
 <style>
+/* Hide the vertical connector lines on timeline items */
 .vis-item:after {
   display: none !important;
 }
@@ -55,13 +58,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Timeline configuration options
     var options = {
-        groupOrder: function(a, b) { return a.value - b.value; },
-        stack: false,
+        groupOrder: (a, b) => a.value - b.value,
+        groupHeightMode: "fixed", // Force fixed group height
+        groupMinHeight: 60,       // Set fixed height (in pixels)
+        stack: true,
         showCurrentTime: true,
         zoomable: false,
         horizontalScroll: true,
         moveable: true,
-        wheel: { zoomSpeed: 0, deltaSpeed: 1 },
+        wheel: {
+          zoomSpeed: 0,
+          deltaSpeed: 1
+        },
         height: "500px",
         margin: { item: 10 },
         start: "2023-01-01",
