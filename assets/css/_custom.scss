@@ -52,3 +52,51 @@
     width: 100%;
     max-width: none;
 }
+
+
+/* Container for each certificate */
+.certificate-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+/* Image styling */
+.certificate-image img {
+    width: 100%;
+    max-width: 400px;
+    /* Adjust based on preference */
+    border-radius: 10px;
+}
+
+/* Text styling */
+.certificate-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+/* Alternating design: reverse layout for every other certificate */
+.certificate-container.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .certificate-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .certificate-container.reverse {
+        flex-direction: column;
+    }
+
+    .certificate-image img {
+        max-width: 100%;
+    }
+
+    .certificate-text {
+        max-width: 100%;
+    }
+}

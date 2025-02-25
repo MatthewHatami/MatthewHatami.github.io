@@ -6,7 +6,6 @@ author_profile: true
 redirect_from:
   - /journal
 # IMPORTANT: Remove or set custom_js to false to avoid double initialization
-custom_js: false
 ---
 
 <style>
@@ -21,23 +20,30 @@ custom_js: false
 <!-- Timeline Container -->
 <div id="timeline" style="width: 100%; height: 500px;"></div>
 
-<!-- Load Vis.js Library -->
-<script src="https://unpkg.com/vis-timeline@7.4.6/standalone/umd/vis-timeline-graph2d.min.js"></script>
+<!-- Load Vis.js Library with Cache-Busting -->
+<script src="https://unpkg.com/vis-timeline@7.4.6/standalone/umd/vis-timeline-graph2d.min.js?v=2"></script>
 <link rel="stylesheet" href="https://unpkg.com/vis-timeline@7.4.6/styles/vis-timeline-graph2d.min.css">
 
 {% raw %}
 <!-- Timeline Script -->
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-    console.log("✅ DOMContentLoaded event fired. Initializing timeline...");
+    console.log("✅ DOMContentLoaded event fired. Checking timeline status...");
 
-    // Get timeline container
     var container = document.getElementById("timeline");
+
     if (!container) {
         console.error("❌ Timeline container not found!");
         return;
     }
+
     console.log("✅ Timeline container found:", container);
+
+    // Prevent duplicate timeline initialization
+    if (window.myTimeline) {
+        console.warn("⚠️ Timeline already exists. Removing and reinitializing...");
+        window.myTimeline.destroy();
+    }
 
     // Define groups for the timeline
     var groups = new vis.DataSet([
@@ -52,18 +58,14 @@ document.addEventListener("DOMContentLoaded", function() {
         { id: 2, group: 1, content: "ML & GIS Course", start: "2024-07" },
         { id: 3, group: 2, content: "Started Flood Research", start: "2024-06" },
         { id: 4, group: 2, content: "Reservoir Optimization Study", start: "2025-03" },
-        { id: 5, group: 3, content: "Won Data Challenge", start: "2025-01" },
-        { id: 6, group: 3, content: "Presented at GIS Day", start: "2024-11-20" }
+        { id: 5, group: 3, content: "Won Data Challenge", start: "2025-01" }
     ]);
-
-
-
 
     // Timeline configuration options
     var options = {
         groupOrder: (a, b) => a.value - b.value,
-        groupHeightMode: "fixed", // Force fixed group height
-        groupMinHeight: 80,       // Set fixed height (in pixels)
+        groupHeightMode: "fixed",
+        groupMinHeight: 120,
         stack: true,
         showCurrentTime: true,
         zoomable: false,
@@ -79,17 +81,15 @@ document.addEventListener("DOMContentLoaded", function() {
         end: "2026-12-31"
     };
 
-        try {
-        // Initialize timeline
-//        var timeline = new vis.Timeline(container, items, options);
-//        timeline.setGroups(groups);
-//        console.log("✅ Timeline initialized successfully!");
-//    } catch (error) {
-//        console.error("❌ Timeline creation error:", error);
-//        container.innerHTML = "Error loading timeline.";
-//    }
-
-
+    try {
+        // Initialize timeline and store reference globally
+        window.myTimeline = new vis.Timeline(container, items, options);
+        window.myTimeline.setGroups(groups);
+        console.log("✅ Timeline initialized successfully!");
+    } catch (error) {
+        console.error("❌ Timeline creation error:", error);
+        container.innerHTML = "Error loading timeline.";
+    }
 });
 </script>
 {% endraw %}
