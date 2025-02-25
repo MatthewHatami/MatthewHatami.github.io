@@ -1,0 +1,105 @@
+---
+layout: archive
+title: "Certificates"
+permalink: /certificates/
+author_profile: true
+redirect_from:
+- /certificates
+---
+
+{% include base_path %}
+
+<style>
+    /* Main container for each certificate */
+    .certificate-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        margin: 40px 0;
+    }
+
+    /* Image styling */
+    .certificate-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .certificate-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Text styling */
+    .certificate-text {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    /* Alternating design: reverse layout for every other certificate */
+    .certificate-container.reverse {
+        flex-direction: row-reverse;
+    }
+
+    /* Responsive layout for smaller screens */
+    @media (max-width: 768px) {
+        .certificate-container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .certificate-container.reverse {
+            flex-direction: column;
+        }
+
+        .certificate-image,
+        .certificate-text {
+            max-width: 100%;
+        }
+    }
+</style>
+
+<h1>Certificates</h1>
+
+<p>I’ve always had this unstoppable curiosity that makes me explore anything and everything beyond my regular
+    coursework. MOOCs and extracurricular courses let me dive into the skills we’re expected to know—but aren’t always
+    taught—and I love how they fuel my passion for learning and growth.</p>
+
+<p>Here’s a list of extracurricular courses I’ve taken, along with a short story about why and when I decided to take
+    each one. If I earned a certificate, you’ll find it here too!</p>
+
+<!-- Certificate 1 -->
+<div class="certificate-container">
+    <div class="certificate-image">
+        <img src="{{ site.baseurl }}/images/dashboardInterface.jpg" alt="Machine Learning & GIS Certificate">
+    </div>
+    <div class="certificate-text">
+        <h3>Machine Learning & GIS</h3>
+        <p>This course helped me bridge the gap between machine learning and geospatial data. I took it in early 2024 as
+            part of my exploration into geospatial AI.</p>
+    </div>
+</div>
+
+<!-- Certificate 2 -->
+<div class="certificate-container reverse">
+    <div class="certificate-text">
+        <h3>Bayesian Networks and Decision Graphs</h3>
+        <p>A deep dive into Bayesian statistics, which I took in 2024 to strengthen my understanding of probabilistic
+            modeling.</p>
+    </div>
+    <div class="certificate-image">
+        <img src="{{ site.baseurl }}/images/dashboardInterface.jpg" alt="Bayesian Networks Certificate">
+    </div>
+</div>
+
+<!-- Certificate 3 -->
+<div class="certificate-container reverse">
+    <div class="certificate-text">
+        <h3>Advanced Remote Sensing</h3>
+        <p>This course introduced me to advanced remote sensing techniques, which I applied in my flood research.</p>
+    </div>
+    <div class="certificate-image">
+        <img src="/images/dashboardInterface.jpg" alt="Advanced Remote Sensing Certificate">
+    </div>
+</div>
