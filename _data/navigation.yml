@@ -27,8 +27,8 @@ main:
     url: /certificates/
 
 
-  - title: "Learning Journal"
-    url: /journal/
+  - title: "Timeline"
+    url: /timeline/
     
   #- title: "Guide"
   #  url: /markdown/
